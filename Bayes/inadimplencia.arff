@@ -1,0 +1,18 @@
+@relation inadimplencia
+
+@attribute 'casa própria' {sim,não}
+@attribute 'estado civil' {solteiro,casado,divorciado}
+@attribute renda numeric
+@attribute inadimplente {não,sim}
+
+@data
+sim,solteiro,125,não
+não,casado,100,não
+não,solteiro,70,não
+sim,casado,120,não
+não,divorciado,95,sim
+não,casado,60,não
+sim,divorciado,220,não
+não,solteiro,85,sim
+não,casado,75,não
+não,solteiro,90,sim
